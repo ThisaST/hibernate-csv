@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.SQLServerDialect
+        </property>
+        <property name="hibernate.connection.driver_class">
+            org.relique.jdbc.csv.CsvDriver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:relique:csv:G:\\CSVS\\
+        </property>
+
+        <property name="connection.pool_size">1</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="use_sql_comments">true</property>
+
+        <mapping class="com.json.rest.sample.model.Address"/>
+        <mapping class="com.json.rest.sample.model.Customer"/>
+    </session-factory>
+</hibernate-configuration>
