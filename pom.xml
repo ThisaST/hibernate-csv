@@ -20,7 +20,7 @@
         <jta.version>1.1</jta.version>
         <servlet-api.version>2.5</servlet-api.version>
         <jsp-api.version>2.1</jsp-api.version>
-        <el-ri.version>1.0</el-ri.version>
+        <el-ri.version>3.0.4</el-ri.version>
         <log4j.version>1.2.17</log4j.version>
         <csvjdbc.version>1.0.28</csvjdbc.version>
         <sqljdbc4.version>4.0</sqljdbc4.version>
